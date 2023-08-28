@@ -1,0 +1,22 @@
+{
+  "name": "logsessiondata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "appium": {
+    "pluginName": "logSessionData",
+    "mainClass": "LogSessionDataPlugin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@appium/base-plugin": "^2.1.3",
+    "appium": "^2.1.3"
+  },
+  "peerDependencies": {
+    "appium": "^2.1.3"
+  }
+}
